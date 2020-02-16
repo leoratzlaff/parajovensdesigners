@@ -1,77 +1,89 @@
 <html>
-<head>
+  <head>
     <title>Tipografia para jovens designers</title>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <style>
-        * {
-            box-sizing: border-box;
-        }
-        html {
-            font-family: Tahoma, Geneva, Verdana, sans-serif;
-            background: rgba(0, 0, 0, 0.05);
-            color: #212121;
-            line-height: 1.4;
-        }
-        body {
-            margin: 0;
-        }
-        .main {
-            width: 100%;
-            height: 100%;
-            padding: 0 2rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .cover {
-            max-height: 500px;
-            box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.2);
-        }
-        .about {
-            width: 480px;
-            margin-left: 2rem;
-        }
-        .about h1 {
-            font-size: 1.7em;
-            line-height: 1.3;
-        }
-        .about p {
-            margin-bottom: 2rem;
-        }
-        .about a {
-            color: #FFF;
-            background: #ff495b;
-            font-size: 1.4em;
-            padding: 0.5em 0.8em;
-            text-decoration: none;
-            font-weight: 700;
-            border-radius: 3px;
-            transition: background 0.3s;
-            user-select: none;
-            -ms-user-select: none;
-            -moz-user-select: none;
-            -webkit-user-select: none;
-            box-shadow: 0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
-        }
-        .about a:hover {
-            background: #E64252;
-        }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        background: rgba(0, 0, 0, 0.05);
+        color: #212121;
+        line-height: 1.4;
+      }
+      body {
+        margin: 0;
+      }
+      .main {
+        width: 100%;
+        height: 100%;
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .cover {
+        max-height: 500px;
+        box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.2);
+      }
+      .about {
+        width: 480px;
+        margin-left: 2rem;
+      }
+      .about h1 {
+        font-size: 1.7em;
+        line-height: 1.3;
+      }
+      .about a {
+        color: #fff;
+        background: #ff495b;
+        font-size: 1.4em;
+        padding: 0.5em 0.8em;
+        text-decoration: none;
+        font-weight: 700;
+        border-radius: 3px;
+        transition: background 0.3s;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        box-shadow: 0rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+        display: inline-block;
+      }
+      .about a:hover {
+        background: #e64252;
+      }
+      .about span {
+        color: #ff495b;
+        font-size: 12px;
+        display: block;
+        margin-top: 0.5rem;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="main">
-        <img class="cover" src="./cover.png" />
-        <div class="about">
-            <h1>Um livro para aprendizado rápido e consultas recorrentes.</h1>
-            <a href="./tipografiaparajovensdesigners.pdf" target="_blank">Download</a>
-        </div>
+      <img class="cover" src="./cover.png" />
+      <div class="about">
+        <h1>Um livro para aprendizado rápido e consultas recorrentes.</h1>
+        <a href="./tipografiaparajovensdesigners.pdf" target="_blank"
+          >Download</a
+        >
+        <span>Versão 1.2 (16/02/2020)</span><br />
+      </div>
     </div>
-</body>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37844172-7"></script>
-<script>
+  </body>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-37844172-7"
+  ></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-37844172-7');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-37844172-7");
+  </script>
 </html>
